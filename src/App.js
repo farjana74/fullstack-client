@@ -6,12 +6,14 @@ import AboutUs from './Pages/AboutUs/AboutUs';
 import Contact from './Pages/ManagesReview/ManagesReview';
 import { BrowserRouter } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
-import AuthProvider from './contexts/AuthProvider/AuthProvider';
+
 import Header from './Pages/Shared/Header/Header';
 import UserDashboard from './Pages/UserDashboard/UserDashboard';
-import AddReview from './Pages/UserDashboard/AddReview/AddReview';
-import AllReview from './Pages/Home/AllReview/AllReview';
+// import AddReview from './Pages/UserDashboard/AddReview/AddReview';
+
 import ManagesReview from './Pages/ManagesReview/ManagesReview';
+import AddReview from './Pages/AddReview/AddReview';
+import Footer from './Pages/Shared/Footer/Footer';
 ;
 
 
@@ -39,15 +41,14 @@ function App() {
           <Route exact path="/AddReview">
             <AddReview></AddReview>
           </Route>
-          {/* <Route exact path="/allReview">
-            <AllReview></AllReview>
-          </Route> */}
+
 
           <Route exact path="/manages">
             <ManagesReview></ManagesReview>
           </Route>
 
         </Switch>
+        <Footer></Footer>
       </BrowserRouter>
     </div>
   );

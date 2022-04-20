@@ -7,8 +7,7 @@ import { useEffect } from 'react';
 import { Switch, Route, useRouteMatch } from "react-router-dom";
 
 import "./UserDashboard.css";
-import AddReview from './AddReview/AddReview';
-import ManageReview from './ManageReview/ManageReview';
+
 
 const UserDashboard = () => {
     let { path, url } = useRouteMatch();
@@ -41,12 +40,12 @@ const UserDashboard = () => {
                         <Switch>
 
 
-                            <Route exact path={`${path}/addReview`}>
+                            {/* <Route exact path={`${path}/addReview`}>
                                 <AddReview></AddReview>
                             </Route>
                             <Route exact path={`${path}/manageReview`}>
                                 <ManageReview></ManageReview>
-                            </Route>
+                            </Route> */}
 
 
                             /            </Switch>
