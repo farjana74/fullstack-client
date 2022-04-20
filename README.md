@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Full Stack Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A Full Stack engineer should be comfortable writing deployable server code, working with external resources (databases, apis, etc), and drafting user interfaces to create complete, deployable apps from scratch.
 
-## Available Scripts
+## Clone this Repo
+1. **Fork** this repository
+2. **Clone into your fork** of this repository.
+3. `git checkout -b [challenge-name/your-name]`
+4. `cd Akkadu_Challenges/full-stack-engineer/submissions`
+5. `mkdir [your-name] && cd $_`
+6. When your finished with the challenge, push your local code to your remote fork.
+7. Open a pull request between your remote branch and our base repository.
+8. Add a reviewer 👍🏽
 
-In the project directory, you can run:
+## Choose a Challenge
 
-### `npm start`
+- 💬 **Real Time Chat App**
+  > Create a real-time chat application on the web that is able to broadcast messages to multiple clients.
+  - Isn't required to save data
+  - Should be real time (low latency)
+  - Users should be able to join separate rooms
+  - Should be able to distinguish from messages sent and messages received
+  - Messages should have time stamps
+  - User should be able to set their user name
+  - Messages should include sender's user name
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✅ **Product Review API**
+  > Create a product review application on the web where a user can create, view, update, and delete reviews to a set of products.
+  - Includes persistent data storage (database)
+  - User should be able to add, update, and delete reviews on at least 3 products
+  - Product reviews should immediately respond to changes
+  - Product reviews should include at least name of user, rating, timestamp, and review text
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🖼 **Image Processor API**
+  > Create an image processing application on the web where a user can send images to a server that sends back the processed image in a downloadable format according to a user's specifications.
+  - Isn't required to save data
+  - User should be able to submit their own image
+  - There should be at least 3 filters/effects/processing functions a user can choose from
+  - User should be able to compare original image with processed image
+  - Image should be downloadable
 
-### `npm test`
+### All Challenges Should Include
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 📱 Mobile-responsive UI to interact with APIs
+- 👾 Server code that can be deployed and run on a server
+- 🛰 Publicly accessible APIs
 
-### `npm run build`
+*NOTE: Feel free to use boilerplates or starter code according to your preference (we would use [create-nuxt-app][create-nuxt-app] or [express-generator][express-generator], you can use whatever you're comfortable with, as long as the challenge is completed to the specification)*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Open a PR
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Go to Github and [open a new pull request][open-pull-request] from your branch to master.
+- Fill out the [pull request template][pull-request-template] and assign [Pterobyte][pterobyte] as a reviewer.
+- I'll add my comments, deploy it, test it, and approve or request changes based on my experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you have any questions regarding these challenges or have suggestions/feedback, feel free to [email me](mailto:jt@akkadu-team.com?subject=Akkadu%20Challenges%20Feedback) 🤓
 
-### `npm run eject`
+Go forth and hammer out some bangin new web app! 🔨
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[create-nuxt-app]: https://nuxtjs.org/guide/installation/
+[express-generator]: https://expressjs.com/en/starter/generator.html
+[open-pull-request]: https://github.com/Akkadu/Akkadu_Challenges/compare
+[pull-request-template]: https://github.com/Akkadu/Akkadu_Challenges/blob/master/.github/pull_request_template.md
+[pterobyte]: https://github.com/Pterobyte
